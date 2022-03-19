@@ -75,10 +75,10 @@ const sketch = (p: p5) => {
         for (let i = 0; i < objects; ++i){
             particles[i] = new ParticleVec2(p);
             particles[i].location.set(p.width / 2.0, p.height / 2.0);
-            const acclerationDirectionalAngle: number = Math.random() * Math.PI * 2.0;
+            const accelerationDirectionalAngle: number = Math.random() * Math.PI * 2.0;
             const accelerationAbs: number =  Math.random() * 20.0;
-            const accelerationX: number = Math.cos(acclerationDirectionalAngle) * accelerationAbs;
-            const accelerationY: number = Math.sin(acclerationDirectionalAngle) * accelerationAbs;
+            const accelerationX: number = Math.cos(accelerationDirectionalAngle) * accelerationAbs;
+            const accelerationY: number = Math.sin(accelerationDirectionalAngle) * accelerationAbs;
             particles[i].acceleration.set(accelerationX, accelerationY);
             particles[i].gravity.set(0.0, 0.1);
             particles[i].friction = 0.01;

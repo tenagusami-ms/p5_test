@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "type": "module",
   "scripts": {
+    "start": "tsc && node src/index.ts",
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html"
   },
@@ -11,11 +13,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^17.0.21",
     "@types/p5": "^1.4.1",
+    "fs": "*",
+    "http": "*",
     "parcel-bundler": "^1.12.5",
     "typescript": "^4.6.2"
   },
   "dependencies": {
+    "@types/node": "^17.0.21",
     "p5": "^1.4.1"
   }
 }

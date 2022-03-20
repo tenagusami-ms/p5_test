@@ -1,6 +1,5 @@
 import p5 from "p5";
 const R = require('ramda');
-//import {ramda as R} from "ramda";
 
 const sketch = (p: p5) => {
 

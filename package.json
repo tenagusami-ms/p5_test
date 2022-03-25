@@ -15,12 +15,12 @@
   "devDependencies": {
     "@types/node": "^17.0.21",
     "@types/p5": "^1.4.1",
+    "@types/ramda": "^0.28.1",
     "fs": "*",
     "http": "*",
     "parcel-bundler": "^1.12.5",
-    "typescript": "^4.6.2",
     "ramda": "^0.28.0",
-    "@types/ramda": "^0.28.1"
+    "typescript": "^4.6.2"
   },
   "dependencies": {
     "@types/node": "^17.0.21",

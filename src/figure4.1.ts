@@ -2,7 +2,7 @@ import p5 from "p5";
 
 const sketch = (p: p5) => {
 
-    let objects: number = 10000;
+    let objects: number = 1000;
     let coordinates: [number, number][] = new Array(objects)
 
     p.setup = () => {
